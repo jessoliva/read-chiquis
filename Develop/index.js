@@ -3,6 +3,9 @@ const fs = require("fs");
 // include inquirer
 const inquirer = require('inquirer');
 
+// import function from generateMarkdown.js
+const generateMarkdown = require('./utils/generateMarkdown.js')
+
 // array of questions for user input
 const questions = [
    'Enter project title: ', 
@@ -22,7 +25,7 @@ const questions = [
 const licenses = [
    'MIT',
    'Apache-2.0',
-   'Boost',
+   'BSD 3-Clause License',
 ];
 
 // Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
@@ -176,7 +179,6 @@ const init = () => {
         }
       },
    ])
-   .then(projectData => console.log(projectData))
 }
 
 // function to write README file
@@ -186,7 +188,6 @@ function writeToFile(markdownContent) {
    // From there, we can write whatever asynchronous functionality we need to execute, 
    // and run the resolve() function when the code executes successfully or reject() when it fails to execute successfully
    return new Promise((resolve, reject) => {
-
       // run this function
       // provides ability to write the markdown code template to a file
       fs.writeFile('./dist/README.md', markdownContent, err => {
@@ -208,6 +209,5 @@ function writeToFile(markdownContent) {
 init()
    .then(projectData => {
       console.log(projectData);
-
-      writeToFile('hello');
+      return generateMarkdown(projectData);
    });

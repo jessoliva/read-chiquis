@@ -37,8 +37,10 @@ const init = () => {
 
    console.log(`
  =================
- For markdown syntax visit: https://www.markdownguide.org/cheat-sheet/
+ Professional README.md guide: https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
  
+ For markdown syntax visit: https://www.markdownguide.org/cheat-sheet/
+
  For emojis visit: https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#phone
  =================
  `);

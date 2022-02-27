@@ -38,6 +38,7 @@ const init = () => {
    console.log(`
  =================
  For markdown syntax visit: https://www.markdownguide.org/cheat-sheet/
+ 
  For emojis visit: https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#phone
  =================
  `);

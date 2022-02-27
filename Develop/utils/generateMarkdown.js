@@ -15,7 +15,16 @@ function renderLicenseBadge(license) {
 
 // function that returns the license link
 function renderLicenseLink(license) {
-
+	// return the badge that matches the license
+	if (license === 'MIT') {
+		return 'https://opensource.org/licenses/MIT';
+	}
+	else if (license === 'Apache-2.0') {
+		return 'https://opensource.org/licenses/Apache-2.0';
+	}
+	else if (license === 'Boost') {
+		return 'https://www.boost.org/LICENSE_1_0.txt';
+	}
 };
 
 // function that returns the license section of README

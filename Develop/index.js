@@ -101,7 +101,7 @@ const init = () => {
       },
       {
          type: 'input',
-         name: 'test',
+         name: 'tests',
          message: questions[5],
          validate: nameInput => { 
             if (nameInput) {
@@ -141,7 +141,7 @@ const init = () => {
       },
       {
          type: 'input',
-         name: 'name',
+         name: 'credits',
          message: questions[8],
          validate: nameInput => { 
             if (nameInput) {

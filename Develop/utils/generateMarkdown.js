@@ -91,7 +91,47 @@ function generateMarkdown(data) {
 
 		${renderLicenseBadge(data.license)}${renderLicenseLink(data.license)}
 
-	`;
+		## Table of Contents
+		- [Project Description](#project-description)
+		- [Installation](#installation)
+		- [Usage](#usage)
+		- [Contribution Guidelines](#contribution-guidelines)
+		- [Tests](#tests)
+		- [Credits](#credits)
+		- [Questions](#questions)
+		- [License](#license)
+
+		## Project Description
+		${data.description}
+
+		## Installation
+		${data.installation}
+
+		## Usage
+		${data.usage}
+
+		## Contribution Guidelines
+		${data.contribution}
+
+		## Tests
+		${data.tests}
+
+		## Credits
+		${data.credits}
+
+		## Questions
+		If you have any questions related to this project, or you just want to interact, you can reach me via GitHub or email!
+
+		Github: [${data.github}](https://github.com/${data.github})
+
+		E-mail: [${data.email}](mailto:${data.email})
+
+		## License
+		${renderLicenseSection(data.license, data.name)}
+
+
+
+ 	`;
 }
 
 module.exports = generateMarkdown;

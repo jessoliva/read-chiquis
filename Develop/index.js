@@ -33,6 +33,15 @@ const licenses = [
 // prompts for user
 const init = () => {
 
+
+
+   console.log(`
+ =================
+ For markdown syntax visit: https://www.markdownguide.org/cheat-sheet/
+ For emojis visit: https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#phone
+ =================
+ `);
+
    return inquirer.prompt([
       {
          type: 'input',

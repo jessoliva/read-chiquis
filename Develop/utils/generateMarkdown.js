@@ -75,8 +75,8 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 // function to generate markdown for README
 function generateMarkdown(data) {
 
-	return `# ${data.title}
-	
+return `# ${data.title}
+
 ${renderLicenseBadge(data.license)}${renderLicenseLink(data.license)}
 
 ## 📚&nbsp; Table of Contents

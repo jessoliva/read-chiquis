@@ -178,10 +178,9 @@ const init = () => {
    ])
    .then(projectData => console.log(projectData))
 }
-init();
 
 // function to write README file
-function writeToFile(fileName, markdownContent) {
+function writeToFile(markdownContent) {
 
    // Inside the () for the new Promise, we provide it with a function that accepts two functions as parameters: resolve and reject
    // From there, we can write whatever asynchronous functionality we need to execute, 
@@ -205,3 +204,10 @@ function writeToFile(fileName, markdownContent) {
       });
    });
 };
+
+init()
+   .then(projectData => {
+      console.log(projectData);
+
+      writeToFile('hello');
+   });

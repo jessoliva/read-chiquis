@@ -27,7 +27,7 @@ const licenses = [
 
 // Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
 
-// questions for user
+// prompts for user
 const init = () => {
 
    return inquirer.prompt([
@@ -180,70 +180,28 @@ const init = () => {
 }
 init();
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// function to write README file
+function writeToFile(fileName, markdownContent) {
 
+   // Inside the () for the new Promise, we provide it with a function that accepts two functions as parameters: resolve and reject
+   // From there, we can write whatever asynchronous functionality we need to execute, 
+   // and run the resolve() function when the code executes successfully or reject() when it fails to execute successfully
+   return new Promise((resolve, reject) => {
 
-
-// // TODO: Create an array of questions for user input
-// const questions = [
-//    {
-//       question: 'Enter project title: ',
-//       name: 'title'
-//    },
-//    {
-//       question: 'Enter description for project: ',
-//       name: 'description'
-//    },
-//    {
-//       question: 'Enter usage information: ',
-//       name: 'usage'
-//    },
-//    {
-//       question: 'Enter contribution guidelines: ', 
-//       name: 'contribution'
-//    },
-//    {
-//       question: 'Enter test instructions: ',
-//       name: 'instructions'
-//    },
-//    {
-//       question: 'Select a license: ',
-//       name: 'license'
-//    },
-//    {
-//       question: 'Enter GitHub Username: ',
-//       name: 'github'
-//    },
-//    {
-//       question: 'Enter Email: ',
-//       name: 'email'
-//    },
-// ];
-
-// // questions for user
-// const init = () => {
-
-
-
-//    return inquirer.prompt([
-
-      
-      
-//       {
-//          type: 'input',
-//          name: 'title',
-//          message: questions[0],
-//          validate: titleInput => { // ensure a project title is entered
-//             if (titleInput) {
-//                return true;
-//             } else {
-//                console.log('Please enter a title for your project!');
-//                return false;
-//             }
-//         }
-//       },
-//    ])
-
-// }
-// init();
+      // run this function
+      // provides ability to write the markdown code template to a file
+      fs.writeFile('./dist/README.md', markdownContent, err => {
+         // if there's an error, reject the Promise and send the error to the Promise's `.catch()` method
+         if (err) {
+           reject(err);
+           // return out of the function here to make sure the Promise doesn't accidentally execute the resolve() function as well
+           return;
+         }
+         // if everything went well, resolve the Promise and send the successful data to the `.then()` method
+         resolve({
+           ok: true,
+           message: 'README.md created!'
+         });
+      });
+   });
+};

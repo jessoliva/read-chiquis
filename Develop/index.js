@@ -210,4 +210,13 @@ init()
    .then(projectData => {
       console.log(projectData);
       return generateMarkdown(projectData);
+   })
+   .then(pageREADME => {
+      return writeToFile(pageREADME);
+   })
+   .then(writeFileResponse => {
+      console.log(writeFileResponse);
+   })
+   .catch(err => {
+      console.log(err);
    });

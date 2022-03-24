@@ -212,23 +212,22 @@ function writeToFile(markdownContent) {
          // if everything went well, resolve the Promise and send the successful data to the `.then()` method
          resolve({
            ok: true,
-           message: 'README.md created!'
+           message: 'Your README.md was created!'
          });
       });
    });
 };
 
 init()
-   .then(projectData => {
-      console.log(projectData);
-      return generateMarkdown(projectData);
-   })
-   .then(pageREADME => {
-      return writeToFile(pageREADME);
-   })
-   .then(writeFileResponse => {
-      console.log(writeFileResponse);
-   })
-   .catch(err => {
-      console.log(err);
-   });
+.then(projectData => {
+   return generateMarkdown(projectData);
+})
+.then(pageREADME => {
+   return writeToFile(pageREADME);
+})
+.then(writeFileResponse => {
+   console.log(writeFileResponse);
+})
+.catch(err => {
+   console.log(err);
+});

@@ -1,4 +1,4 @@
-# jess
+# A Project
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -13,32 +13,32 @@
 - [📰&nbsp; License](#license)
 
 ## 📝&nbsp; Project Description
-jess
+This is a project.
 
 ## 🛠️&nbsp; Installation
-jess
+Instructions.
 
 ## 👩🏽‍💻&nbsp; Usage
-jess
+Usage.
 
 ## ✏️&nbsp; Contribution Guidelines
-jess
+Contribution.
 
 ## 🧪&nbsp; Tests
-jess
+Test.
 
 ## 👨‍👩‍👧‍👦&nbsp; Credits
-jess
+Credits.
 
 ## 📱&nbsp; Contact
 If you have any questions related to this project, or you just want to interact, you can reach me via GitHub or E-mail!
 
->**Github: [jess](https://github.com/jess)**
+>**Github: [jess-oliva](https://github.com/jess-oliva)**
 
->**E-mail: [jess](mailto:jess)**
+>**E-mail: [jessoliva.g@gmail.com](mailto:jessoliva.g@gmail.com)**
 
 ## 📰&nbsp; License
-	Copyright 2022 jess
+	Copyright 2022 Jessica Olivares
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

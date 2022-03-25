@@ -1,4 +1,4 @@
-# A Project
+# Title
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -12,20 +12,20 @@
 - [📱&nbsp; Contact](#contact)
 - [📰&nbsp; License](#license)
 
-## 📝&nbsp; Project Description
-This is a project.
+## 📝&nbsp; Description
+Project description.
 
 ## 🛠️&nbsp; Installation
-Instructions.
+These are the instructions.
 
 ## 👩🏽‍💻&nbsp; Usage
-Usage.
+Usage information.
 
 ## ✏️&nbsp; Contribution Guidelines
-Contribution.
+Guidelines.
 
 ## 🧪&nbsp; Tests
-Test.
+There are no tests yet.
 
 ## 👨‍👩‍👧‍👦&nbsp; Credits
 Credits.
@@ -33,7 +33,7 @@ Credits.
 ## 📱&nbsp; Contact
 If you have any questions related to this project, or you just want to interact, you can reach me via GitHub or E-mail!
 
-> Github: [jess-oliva](https://github.com/jess-oliva)
+> Github: [jessoliva](https://github.com/jessoliva)
 
 > E-mail: [jessoliva.g@gmail.com](mailto:jessoliva.g@gmail.com)
 

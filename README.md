@@ -48,7 +48,7 @@ To use, run the following command:
 
     node server
 
-Checkout this video ✨
+✨ Checkout the video saved here: assets/video.mov
 
 ## ✏️&nbsp; Contribution Guidelines
 

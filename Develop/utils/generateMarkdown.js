@@ -80,7 +80,7 @@ return `# ${data.title}
 ${renderLicenseBadge(data.license)}${renderLicenseLink(data.license)}
 
 ## 📚&nbsp; Table of Contents
-- [📝&nbsp; Project Description](#project-description)
+- [📝&nbsp; Description](#description)
 - [🛠️&nbsp; Installation](#installation)
 - [👩🏽‍💻&nbsp; Usage](#usage)
 - [✏️&nbsp; Contribution Guidelines](#contribution-guidelines)
@@ -89,7 +89,7 @@ ${renderLicenseBadge(data.license)}${renderLicenseLink(data.license)}
 - [📱&nbsp; Contact](#contact)
 - [📰&nbsp; License](#license)
 
-## 📝&nbsp; Project Description
+## 📝&nbsp; Description
 ${data.description}
 
 ## 🛠️&nbsp; Installation
@@ -110,9 +110,9 @@ ${data.credits}
 ## 📱&nbsp; Contact
 If you have any questions related to this project, or you just want to interact, you can reach me via GitHub or E-mail!
 
->**Github: [${data.github}](https://github.com/${data.github})**
+> Github: [${data.github}](https://github.com/${data.github})
 
->**E-mail: [${data.email}](mailto:${data.email})**
+> E-mail: [${data.email}](mailto:${data.email})
 
 ## 📰&nbsp; License
 ${renderLicenseSection(data.license, data.name)}

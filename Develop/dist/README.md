@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## 📚&nbsp; Table of Contents
-- [📝&nbsp; Project Description](#project-description)
+- [📝&nbsp; Description](#description)
 - [🛠️&nbsp; Installation](#installation)
 - [👩🏽‍💻&nbsp; Usage](#usage)
 - [✏️&nbsp; Contribution Guidelines](#contribution-guidelines)
@@ -33,9 +33,9 @@ Credits.
 ## 📱&nbsp; Contact
 If you have any questions related to this project, or you just want to interact, you can reach me via GitHub or E-mail!
 
->**Github: [jess-oliva](https://github.com/jess-oliva)**
+> Github: [jess-oliva](https://github.com/jess-oliva)
 
->**E-mail: [jessoliva.g@gmail.com](mailto:jessoliva.g@gmail.com)**
+> E-mail: [jessoliva.g@gmail.com](mailto:jessoliva.g@gmail.com)
 
 ## 📰&nbsp; License
 	Copyright 2022 Jessica Olivares

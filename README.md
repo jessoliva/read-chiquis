@@ -18,6 +18,8 @@ Just use this Eazy Peazy README Squeazy app for your readme needs.
 ## 📝&nbsp; Description
 A command-line application that accepts user input, using that input a wonderful README.md file is generated for you! The generated README.md file will be located in the dist folder. In there you can make any necessary final changes.
 
+Use this app to create this README.md :)
+
 ## 🛠️&nbsp; Installation
 
 On the main page of the read-chiquis repository click on 'Fork' on the right hand side. This will clone the repository onto your GitHub!
